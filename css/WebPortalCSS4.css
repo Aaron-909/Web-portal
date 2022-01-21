@@ -1,0 +1,183 @@
+html {border-top: 30px solid;
+      border-color: #33304B;
+      width: 100%;
+      font-family: Arial;}
+
+.navbar { /*This contains the City logo, Nav buttons and Login button*/
+  display: flex;
+  flex-direction: row;
+  height: 160px;
+  width: auto;
+  background-color: #FFB9B9;
+  border: 2px solid;
+  align-items: center;
+  margin: -9px -8px 0px -8px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;}
+
+.photo {
+  margin: auto;}
+#citylogo {
+  height: 130px;
+  cursor: pointer;}
+
+.box1 { /*Top Nav button row*/
+  display: flex;
+  flex-direction: row;}
+.box2 { /*Bottom Nav button row*/
+  display: flex;
+  flex-direction: row;}
+
+.case { /*This centers the Nav buttons*/
+  margin: auto;}
+
+.profile, .customer, .chat, .community, .about, .help { /*p within element and element2*/
+  padding: 20px 5px 20px 5px;
+  border: 4px #800159 solid;
+  cursor: pointer;}
+
+.element {
+  text-align: center;
+  width: 180px;
+  height: 65px;
+  margin: auto;
+  color: #FFFFFF;}
+.element2 {
+  text-align: center;
+  width: 180px;
+  height: auto;
+  color: #02001F;
+  text-decoration: underline;
+  font-size: 0.9em;}
+
+.login { /*div containing login text*/
+  margin: auto;}
+.logintext { /*The login text itself*/
+  color: #FFFFFF;
+  border: 5px #800159 solid;
+  background-color: #980027;
+  text-align: center;
+  padding: 50px;}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 97.8%;
+  background-color: #F7F7FF;
+  align-items: center;
+  margin: auto;
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.CVsection {
+  display: flex;
+  flex-direction: column;}
+
+.title {color: #224433;
+  background-color: #FFE9E9;
+  padding: 10px;
+  width: 1100px;
+  border: 3px #EB4848 solid;
+  border-radius: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;}
+
+.CVbox {
+  margin: auto;
+  color: #940000;
+  background-color: #FDF2FF;
+  border: 2px #A470FF solid;
+  border-radius: 4px;
+  width: 1100px;
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 10px;}
+
+.CVtext {
+  padding: 15px;
+  text-align: justify;
+  margin: auto;}
+
+.CVoptions {
+  display: flex;
+  flex-direction: row;}
+
+.optionbox {
+  background-color: #FFDDB3;
+  border: 1px #797979 solid;
+  border-radius: 3px;
+  flex: 1;
+  margin-top: 10px;
+  margin-bottom: 25px;}
+.optiontext {
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.8em;}
+
+.feedbackbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #96F4FF;
+  width: 1100px;
+  border: 1px #12A784 solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.feedback {
+  background-color: #EBE8B0;
+  border: 1px #7979B9;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+  display: flex;
+  height: 70px;}
+
+.feedbacktext {
+  color: #940000;
+  text-align: center;
+  margin: auto;}
+
+  footer {
+    height: 200px;
+    background-image: linear-gradient(#A2A2A2, black);
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin: 0px -8px -8px -10px;}
+  #citylogo2 {height: 130px; padding: 30px 60px 30px 60px;}
+
+  .info {
+    padding: 5px;
+    text-align: justify;
+    color: #FFFFFF;
+    line-height: 1.4;
+    margin: auto;}
+
+  .social {
+    flex: 1 1 33%;
+    text-align: center;
+    text-decoration: underline;
+    color: #FFFACB;
+    line-height: 0.3;
+    justify-content: space-around;
+    margin: auto;}
+
+    @media (max-width:576px) {
+      body {background-color: #ddbdff;
+            width: auto;
+            font-size: 0.6em}
+      .page {width: auto;
+             flex-direction: column;
+             align-items: center;}
+      .searchtext {margin:auto; max-width: 300px;}
+      .element, .element2, .login {
+         width: auto; margin: auto;}
+      .profile, .customer, .chat, .community, .about, .help, .logintext {width: 70px; height: auto; padding: auto; font-size: 0.4em;}
+      .logintext {padding: 20px 10px;}
+      footer {display: flex; flex-direction: column; height: auto;}
+      #citylogo {width: 60px; height: 35px;}
+      .title, .CVsection, .CVbox, .feedback, .feedbackbox {width: auto; margin: 10px; padding: 10px;}}

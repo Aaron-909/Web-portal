@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/aboutstyle.css">
+    <meta charset="utf-8">
+    <title>City Portal</title>
+  </head>
+<body>
+   <div class="navbar">
+     <div class="photo">
+       <img id="citylogo" src="images/PNGCityLogo.png" alt="City" onclick="location='index.html'">
+     </div>
+     <section class="case">
+       <div class="box1">
+         <div class="element">
+           <p class="profile" style="background-color: #FF5368;" onclick="location='Profile.html'">Profile</p>
+         </div>
+         <div class="element">
+           <p class="customer" style="background-color: #C24141;" onclick="location='CV.html'">CV</p>
+         </div>
+         <div class="element">
+           <p class="chat" style="background-color: #FF5368;" onclick="location='Chat.html'">Chat</p>
+         </div>
+       </div>
+       <div class="box2">
+         <div class="element2">
+           <p class="community" style="background-color: #F99277;" onclick="location='Resources.html'">Resources</p>
+         </div>
+         <div class="element2">
+           <p class="about" style="background-color: #F99277;" onclick="location='Aboutus.html'">About us</p>
+         </div>
+         <div class="element2">
+           <p class="help" style="background-color: #F99277;" onclick="location='Registration.html'">Registration form</p>
+         </div>
+       </div>
+     </section>
+     <div class="login">
+       <p class="logintext" onclick="location='Login.html'">Login</p>
+     </div>
+   </div>
+
+
+<article class="page">
+  <div class="row">
+    <div class="column1">
+
+
+        <div class="head">
+
+      <a><h3>About us</h3></a>
+        </div>
+
+        <div class="text">
+          <p><strong>This web portal</strong> <br></br>
+            This web portal was created for the main purpose of allowing students from the computer science
+            foundation course to be able to express themselves to employers for potential work experience opportunities.
+            This portal also allows students to communicate with each other for easier communication for work or other purposes.
+            Students can also check their modules and assignments here for quick access and easy manageability of work.</p>
+          </div>
+
+          <br></br>
+
+          <div class="text2">
+            <p><strong>About City university</strong> <br></br>
+              Our tradition of providing high quality education relevant to business and the professions dates back 160 years and throughout that time,
+              City has been at the forefront of creativity and innovation. <br></br>
+              What City does day in, day out, year in and year out is to transform
+              the lives of students, create new knowledge, support business and the professions and
+              contribute to the global good of society.<br></br>
+              Whether you’re an academic solving or tackling diversity in the boardroom or interested in the
+              impact of obesity on public health, or an IT programmer, Mechanical Engineer or Administrator,
+              there could not be a better time to join City. You'll be immersed in an inspiring, inclusive community that
+              will give you the platform you need to thrive.</p>
+            </div>
+
+            <br></br>
+
+            <div class="text3">
+              <p><strong>Library/study places:</strong> <br></br>
+                <strong>Northampton Square Library</strong> <br></br>
+                Northampton Square Library provides printed resources, study spaces (for group study, quiet study and individual silent study),
+                networked PCs and wi-fi across five levels. The library entrance is on the second floor of University Building at Northampton Square.
+
+                <br></br><strong>Law Library</strong> <br></br>
+                Located on the first floor of the City Law School Building (Sebastian Street),
+                the Law Library provides printed resources, study spaces (for group and individual silent study) and networked PCs.
+                The library collection comprises books, reports and journals to support the academic and professional law programmes
+                taught at City and is augmented by a large portfolio of online resources.</p>
+
+              </div>
+
+      </div>
+
+    <div class="column2">
+
+      <img src="images/communication.png" class="image">
+      <img src="images/university.jpg" class="image">
+      <img src="images/library2.jpg" class="image">
+
+      </div>
+</div>
+
+</article>
+
+<!--This is the button to go back to the top of the page.-->
+<!--It appears once the user scrolls down on the website.-->
+<button onclick="topFunction()" id="backtotop" title="Back to the top" style="width: 100px; height: auto;">Top</button>
+
+<script>
+//Make the button variable
+var mybutton = document.getElementById("backtotop");
+
+//When the user scrolls down 20px from the top of the document, show the button (uses this function)
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document (button gets hidden)
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<footer>
+  <div class="photo">
+    <img id="citylogo2" src="images/CityLogo2.png" alt="City2">
+  </div>
+  <div class="info">
+    <center>
+    <p>City, University of London is an independent member institution of the University of London. Established by Royal Charter in 1836, the University of London consists of 18 independent member institutions with outstanding global reputations and several prestigious central academic bodies and activities.
+      <br>Contact us<br>
+      +44 (0)20 7040 5060<br>
+      Make an enquiry<br>
+      <strong>Coded by Aaron Bachu</strong></p>
+    </center>
+  </div>
+  <div class="social">
+    <p>Twitter</p>
+    <p>Facebook</p>
+    <p>YouTube</p>
+    <p>LinkedIn</p>
+    <p>Instagram</p>
+    <p>Weibo</p>
+    <p>Youku</p>
+  </div>
+</footer>
+</body>
+</html>

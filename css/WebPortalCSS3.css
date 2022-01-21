@@ -1,0 +1,232 @@
+html {border-top: 30px solid;
+      border-color: #33304B;
+      width: 100%;
+      font-family: Arial;}
+
+.navbar { /*This contains the City logo, Nav buttons and Login button*/
+  display: flex;
+  flex-direction: row;
+  height: 160px;
+  width: auto;
+  background-color: #FFB9B9;
+  border: 2px solid;
+  align-items: center;
+  margin: -9px -8px 0px -8px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;}
+
+.photo {
+  margin: auto;}
+#citylogo {
+  height: 130px;
+  cursor: pointer;}
+
+.box1 { /*Top Nav button row*/
+  display: flex;
+  flex-direction: row;}
+.box2 { /*Bottom Nav button row*/
+  display: flex;
+  flex-direction: row;}
+
+.case { /*This centers the Nav buttons*/
+  margin: auto;}
+
+.profile, .customer, .chat, .community, .about, .help { /*p within element and element2*/
+  padding: 20px 5px 20px 5px;
+  border: 4px #800159 solid;
+  cursor: pointer;}
+
+.element {
+  text-align: center;
+  width: 180px;
+  height: 65px;
+  margin: auto;
+  color: #FFFFFF;}
+.element2 {
+  text-align: center;
+  width: 180px;
+  height: auto;
+  color: #02001F;
+  text-decoration: underline;
+  font-size: 0.9em;}
+
+.login { /*div containing login text*/
+  margin: auto;}
+.logintext { /*The login text itself*/
+  color: #FFFFFF;
+  border: 5px #800159 solid;
+  background-color: #980027;
+  text-align: center;
+  padding: 50px;}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 97.8%;
+  background-color: #F7F7FF;
+  align-items: center;
+  margin: auto;
+  padding: 20px 0px 20px 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.welcome {
+  padding: 25px 0px 25px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;}
+
+.studenticon {
+  height: 178px;
+  border: 2px solid;}
+
+.welcometext {
+  background-color: #225E5F;
+  color: #FFFFFF;
+  padding: 80px;
+  border-radius: 5px;
+  flex: 1;}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;}
+
+.title {color: #224433;
+  background-color: #FFE9E9;
+  padding: 10px;
+  width: 1100px;
+  border: 3px #EB4848 solid;
+  border-radius: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;}
+
+.elementbox {
+  margin: auto;
+  color: #940000;
+  background-color: #EBE8B0;
+  border: 2px #797979 solid;
+  border-radius: 10px;
+  width: 1100px;
+  padding: 0px 10px 0px 10px;
+  height: 100px;
+  display: flex;}
+
+.topelement {
+  padding: 30px;
+  text-align: center;
+  margin: auto;}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;}
+
+.row, .bottom {
+  display: flex;
+  flex-direction: row;}
+
+.elementbox2 {
+  color: #333333;
+  background-color: #BDFFFB;
+  border: 2px #797979 solid;
+  border-radius: 10px;
+  flex: 1;
+  text-align: left;}
+
+.middleelement {
+  line-height: 2;
+  padding: 30px;
+  margin: auto;}
+
+.bottom {
+  padding: 10px;}
+
+.BLeft {
+  background-color: #FFDADA;
+  border: 2px #0044B8 solid;
+  border-radius: 2px;
+  height: 180px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;}
+.BLtext1, .BLtext2, .BLtext3 {
+  padding: 0px 20px 0px 20px;
+  margin: auto;}
+.BLtext1 {font-weight: bold; font-size: 1.7em;}
+.BLtext2 {text-decoration: underline; font-size: 1.4em;}
+.BLtext3 {font-size: 1.6em;}
+
+.BMiddle {
+  background-color: #A3CBD7;
+  border: 2px #879CC8 solid;
+  border-radius: 2px;
+  height: 180px;
+  width: 600px;
+  text-align: center;
+  display: flex;
+  padding: 0px 5px;}
+.BMtext {
+  padding: 0px 20px 0px 20px;
+  margin: auto;
+  font-size: 1.3em;}
+
+.BRight {
+  background-color: #FF999D;
+  border: 2px #0044B8 solid;
+  border-radius: 2px;
+  height: 180px;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  cursor: pointer;}
+.BRtext {
+  padding: 0px 20px 0px 20px;
+  margin: auto;
+  font-size: 1.3em;}
+
+  footer {
+    height: 200px;
+    background-image: linear-gradient(#A2A2A2, black);
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin: 0px -8px -8px -10px;}
+  #citylogo2 {height: 130px; padding: 30px 60px 30px 60px;}
+
+  .info {
+    padding: 5px;
+    text-align: justify;
+    color: #FFFFFF;
+    line-height: 1.4;
+    margin: auto;}
+
+  .social {
+    flex: 1 1 33%;
+    text-align: center;
+    text-decoration: underline;
+    color: #FFFACB;
+    line-height: 0.3;
+    justify-content: space-around;
+    margin: auto;}
+
+    @media (max-width:576px) {
+      body {background-color: #ddbdff;
+            width: auto;
+            font-size: 0.6em}
+      .page {width: auto;
+             flex-direction: column;
+             align-items: center;}
+      .searchtext {margin:auto; max-width: 300px;}
+      .element, .element2, .login {
+         width: auto; margin: auto;}
+      .profile, .customer, .chat, .community, .about, .help, .logintext {width: 70px; height: auto; padding: auto; font-size: 0.4em;}
+      .logintext {padding: 20px 10px;}
+      footer {display: flex; flex-direction: column; height: auto;}
+      #citylogo {width: 60px; height: 35px;}
+      .title, .elementbox, .elementbox2, .bottom {width: auto; margin: 10px; padding: 10px;}
+      .bottom {flex-direction: column; align-items: center;}
+      .BMiddle {width: auto;}

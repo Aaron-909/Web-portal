@@ -1,0 +1,220 @@
+html {border-top: 30px solid;
+      border-color: #33304B;
+      width: 100%;
+      font-family: Arial;}
+
+.navbar { /*This contains the City logo, Nav buttons and Login button*/
+  display: flex;
+  flex-direction: row;
+  height: 160px;
+  width: auto;
+  background-color: #FFB9B9;
+  border: 2px solid;
+  align-items: center;
+  margin: -9px -8px 0px -8px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;}
+
+.photo {
+  margin: auto;}
+#citylogo {
+  height: 130px;
+  cursor: pointer;}
+
+.box1 { /*Top Nav button row*/
+  display: flex;
+  flex-direction: row;}
+.box2 { /*Bottom Nav button row*/
+  display: flex;
+  flex-direction: row;}
+
+.case { /*This centers the Nav buttons*/
+  margin: auto;}
+
+.profile, .customer, .chat, .community, .about, .help { /*p within element and element2*/
+  padding: 20px 5px 20px 5px;
+  border: 4px #800159 solid;
+  cursor: pointer;}
+
+.element {
+  text-align: center;
+  width: 180px;
+  height: 65px;
+  margin: auto;
+  color: #FFFFFF;}
+.element2 {
+  text-align: center;
+  width: 180px;
+  height: auto;
+  color: #02001F;
+  text-decoration: underline;
+  font-size: 0.9em;}
+
+  .login { /*div containing login text*/
+    margin: auto;}
+  .logintext { /*The login text itself*/
+    color: #FFFFFF;
+    border: 5px #800159 solid;
+    background-color: #980027;
+    text-align: center;
+    padding: 50px;
+    cursor: pointer;
+  }
+
+    .page {
+      display: flex;
+      flex-direction: row;
+      height: auto;
+      width: 97.8%;
+      background-color: #F7F7FF;
+      align-items: center;
+      margin: auto;
+      padding: 20px 0px 20px 0px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+      .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 0px;
+        padding-top: 60px;
+        padding-bottom: 150px;
+        }
+
+      .column1{
+        flex-basis: 40%;
+        margin-left: 750px;
+        flex-direction: row;
+      }
+
+      .column1 h3{
+        margin-left: 5px;
+        background-color: #FFE9E9;
+        border: 3px #EB4848 solid;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      .column2{
+        flex-basis: 50%;
+        display: flex;
+        align-items: center;
+        margin-left: -150px;
+        margin-top: 500px;
+      }
+
+      .loginbtn{
+        margin-top: 5px;
+        background-color: #FFE9E9;
+        padding: 40px;
+        border: 2px #EB4848 solid;
+        margin-left: -165px;
+        cursor: pointer;
+      }
+
+      .create{
+        background-color: #10D4BF;
+        padding: 20px;
+        border: 3px #00B975 solid;
+        margin-left: 30px;
+        cursor: pointer;
+      }
+
+      .create a{
+        text-decoration: none;
+        color: #000000;
+      }
+
+    footer {
+      height: 200px;
+      background-image: linear-gradient(#A2A2A2, black);
+      display: flex;
+      flex-direction: row;
+      padding: 30px;
+      margin: 0px -8px -8px -10px;}
+
+    #citylogo2 {height: 130px; padding: 30px 60px 30px 60px;}
+
+    .info {
+      padding: 5px;
+      text-align: justify;
+      color: #FFFFFF;
+      line-height: 1.4;
+      margin: auto;}
+
+    .social {
+      flex: 1 1 33%;
+      text-align: center;
+      text-decoration: underline;
+      color: #FFFACB;
+      line-height: 0.3;
+      justify-content: space-around;
+      margin: auto;}
+
+#backtotop {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 200px;
+  z-index: 99;
+  font-size: 18px;
+  text-shadow: 1px 1px;
+  border: none;
+  outline: none;
+  background-color: #980027;
+  color: black;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+#backtotop:hover {
+  background-color: #C24141;
+}
+
+      @media all and (max-width: 700px){
+      body {background-color: #ddbdff;
+            width: auto;}
+      .page {width: auto;
+            flex-direction: column;
+            align-items: center;}
+
+      .element, .element2, .login {
+          width: auto; margin: auto;}
+
+      .profile, .customer, .chat, .community, .about, .help, .logintext {
+        width: 70px;
+        height: auto;
+        padding: auto;
+        font-size: 0.4em;
+      }
+
+      .logintext {
+        padding: 20px 10px;
+      }
+
+      .row{
+        flex-direction: column;
+        margin: 50px 0;
+      }
+
+      .column1{
+        margin-bottom: 50px;
+        margin-left: 30px;
+      }
+
+      .column1 h3{
+        margin-left: -15px;
+      }
+
+      .column2{
+        font-size: 16px;
+        margin-top: 100px;
+        text-align: left;
+        margin-left: 200px;
+      }
+
+      footer {display: flex; flex-direction: column; height: auto;}
+      #citylogo {width: 60px; height: 35px;}
+      .centerelement, .centertitle, .center {width: auto; margin: 15px; padding: 5px;}

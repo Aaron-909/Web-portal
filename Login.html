@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/loginstyle.css">
+    <meta charset="utf-8">
+    <title>City Portal</title>
+  </head>
+<body>
+   <div class="navbar">
+     <div class="photo">
+       <img id="citylogo" src="images/PNGCityLogo.png" alt="City" onclick="location='index.html'">
+     </div>
+     <section class="case">
+       <div class="box1">
+         <div class="element">
+           <p class="profile" style="background-color: #FF5368;" onclick="location='Profile.html'">Profile</p>
+         </div>
+         <div class="element">
+           <p class="customer" style="background-color: #C24141;" onclick="location='CV.html'">CV</p>
+         </div>
+         <div class="element">
+           <p class="chat" style="background-color: #FF5368;" onclick="location='Chat.html'">Chat</p>
+         </div>
+       </div>
+       <div class="box2">
+         <div class="element2">
+           <p class="community" style="background-color: #F99277;" onclick="location='Resources.html'">Resources</p>
+         </div>
+         <div class="element2">
+           <p class="about" style="background-color: #F99277;" onclick="location='Aboutus.html'">About us</p>
+         </div>
+         <div class="element2">
+           <p class="help" style="background-color: #F99277;" onclick="location='Registration.html'">Registration form</p>
+         </div>
+       </div>
+     </section>
+     <div class="login">
+       <p class="logintext" onclick="location='Login.html'">Login</p>
+     </div>
+   </div>
+
+
+   <article class="page">
+     <div class="row">
+       <div class="column1">
+         <form action="index.html">
+
+         <h3>Welcome to the City web portal!<br></br>
+           Please login for full access to the portal.</h3>
+
+         <br></br>
+
+           <div class="input">
+           <p>Username:
+             <br></br>
+
+             <input type="text" name="Username" size="40" maxlength="30" required/>
+           </p>
+           <br></br>
+
+           <p>Password:
+             <br></br>
+
+             <input type="text" name="Password" size="40" maxlength="30" required/>
+           </p>
+           </div>
+
+       </div>
+
+
+       <div class="column2">
+         <form method="post" action="index.html">
+
+             <button class="loginbtn" type="submit">Login</button>
+           </form>
+
+             <button class="create" type="submit" onclick="location='Registration.html'">Need an account?<br></br>Create one here</button>
+
+         </div>
+   </div>
+
+   </article>
+
+   <!--This is the button to go back to the top of the page.-->
+   <!--It appears once the user scrolls down on the website.-->
+   <button onclick="topFunction()" id="backtotop" title="Back to the top" style="width: 100px; height: auto;">Top</button>
+
+   <script>
+   //Make the button variable
+   var mybutton = document.getElementById("backtotop");
+
+   //When the user scrolls down 20px from the top of the document, show the button (uses this function)
+   window.onscroll = function() {scrollFunction()};
+
+   function scrollFunction() {
+     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       mybutton.style.display = "block";
+     } else {
+       mybutton.style.display = "none";
+     }
+   }
+
+   // When the user clicks on the button, scroll to the top of the document (button gets hidden)
+   function topFunction() {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+   }
+   </script>
+
+   <footer>
+     <div class="photo">
+       <img id="citylogo2" src="images/CityLogo2.png" alt="City2">
+     </div>
+     <div class="info">
+       <center>
+       <p>City, University of London is an independent member institution of the University of London. Established by Royal Charter in 1836, the University of London consists of 18 independent member institutions with outstanding global reputations and several prestigious central academic bodies and activities.
+         <br>Contact us<br>
+         +44 (0)20 7040 5060<br>
+         Make an enquiry<br>
+         <strong>Coded by Aaron Bachu</strong></p>
+       </center>
+     </div>
+     <div class="social">
+       <p>Twitter</p>
+       <p>Facebook</p>
+       <p>YouTube</p>
+       <p>LinkedIn</p>
+       <p>Instagram</p>
+       <p>Weibo</p>
+       <p>Youku</p>
+     </div>
+   </footer>
+   </body>
+   </html>
